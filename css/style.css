@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+/*
+body {
+border: 2px;
+background-color: rgba(245, 168, 53, 0.836);
+
+  
+    
+    
+    
+}
+
+   .header {
+
+   text-align: center;
+
+
+
+
+   }
+  
+    
+
+
+    /*
+.section2 {
+
+font-family:"Dela Gothic One", sans-serif;
+ text-align: justify;
+ 
+
+}
+.h2 {
+font-weight: bolder;
+color: rgb(180, 158, 118);
+}
+.para1 {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: justify;
+     font-weight: 600;
+     color:wheat;
+     line-height: 35px;
+    
+    }
+    .para2 {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         text-align: justify;
+         font-weight: 600;
+         color: wheat;
+         line-height: 35px;
+        
+        }
+.footer {
+
+text-align: center;
+font-family: "Dela Gothic One", sans-serif;
+}
+
+
+body {
+
+    background-color: black;
+    
+
+}
+.heading {
+text-align: center;
+border-radius: 50%;
+color: azure;
+border: 2px dashed wheat;
+
+padding: 10px 0px 10px 5px;
+width: auto;
+box-sizing: border-box;
+margin: 60px;
+}
+.para {
+
+text-align: center;
+color: antiquewhite;
+}
+
+
+.parent {
+
+position: relative;
+background-color: rgb(255, 255, 255);
+width: 102px;
+height: 50px;
+padding: 10%;
+border: 1px solid brown;
+margin: 10px;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7 , .box-8, .box-9, .box-10, .box-11, .box-12, .box-13, .box-14, .box-15, .box-16, .box-17, .box-18, .box-19, .box-20, .box-21, .box-22, .box-23, .box-24, .box-25, .box-26, .box-27,.box-28, .box-29, .box-30, .box-31, .box-32, .box-33 {
+ position: absolute;
+ background-color: black;
+ padding: 10px;
+ width: 20px;
+ border: 2px solid white;
+ height: 20px
+}
+
+.box-1 {
+
+left: 2px;
+top: 2px;
+width: 27px;
+
+}
+
+.box-2 {
+
+left: 95px;
+top: 2px;
+width: 27px;
+}
+
+.box-3{
+
+    left:186px;
+    top: 2px;
+    width:27px ;
+    }
+
+    .box-4 {
+
+        left: 277px;;
+        top: 3px;
+        width:27px ;
+        }
+ .box-5 {
+
+  left: 47px;
+top: 40px;
+width: 27px;
+ }
+
+ .box-6 {
+
+ left: 140px;
+ top: 40px;
+ width: 27px;
+ }
+ .box-7 {
+
+ left: 231px;
+top: 40px;
+width: 27px;
+ }
+ .box-8 {
+
+ left:331px ;
+ top: 40px;
+ width: 27px;
+ }
+ .box-9 {
+
+ left: 2px;
+ top: 81px;
+ }.box-10 {
+ left: 91px;
+ top: 81px;
+ width: 27px;
+   }
+   .box-11 {
+
+left: 18px;
+top: 81px;
+width: 28px;
+}
+.box-12 {
+
+left: 289px;
+top: 81px;
+width: 27px;
+}
+.box-13 {
+
+  left: 45px;
+top:120px;
+width: 27px;
+}.box-14{
+
+left: 139px;
+top:120px ;
+width: 27px;
+}.box-15 {
+
+left: 229px;
+top: 120px;
+width:27px ;
+}.box-16 {
+
+left: 329px;
+top:120px ;
+width: 27px;
+}.box-17 {
+
+left: 2px;
+top: 162px;
+width: 27px;
+}.box-18 {
+
+left: 91px;
+top: 162px;
+width: 27px;
+}.box-19 {
+
+left: 183px;
+top:162px;
+width: 27px;
+}.box-20 {
+
+left:274;
+top:162px;
+width: 27px;
+}.box-21 {
+
+left: 45px;
+top:200px;
+width: 27px;
+}.box-22 {
+
+left: 140px;
+top:200px;
+width: 27px;
+}.box-23 {
+
+left: 231px;
+top:200px;
+width:  27px;
+}.box-24 {
+
+left: 320px;
+top:200px;
+width: 27px;
+}.box-25{
+
+left: 320px;
+top:240px;
+width: 27px;
+}.box-26 {
+
+left: 235px; ;
+top:240px;
+width: 27px;
+}
+.box-27 {
+
+left: 235px;
+ top:240px;
+ width: 27px;
+  }
+
+.box-28 {
+left:183px ;
+top:240px;
+width: 27px;
+  }
+
+.box-29 {
+
+left: 275px;
+top: 240px;;
+width:  27px;
+  }
+
+.box-30 {
+
+left:45px ;
+top:;
+width:28px;
+}
+
+.box-31 {
+
+left: 1;
+bottom:280px;
+width: 28px;
+}
+
+.box-32 {
+
+left: ;
+bottom:280px;
+width: 28px;
+}
+
+.box-33 {
+
+left: ;
+top: ;
+width: 28px;
+}
+
+
+* {
+box-sizing: border-box;
+
+}
+.navigation {
+display: flex;
+flex-direction: row;
+justify-content: end;
+
+
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 20px;
+  height: 20px;
+
+
+}
+.box-90 {
+
+display: flex;
+flex-direction: row;
+color: black;
+width: 20px;
+height: 20px;
+}
+
+.box-91 {
+
+  display: flex;
+  flex-direction: row;
+  color: rgb(143, 30, 30);
+  width: 20px;
+  height: 20px;
+  }
+
+  .box-92 {
+
+    display: flex;
+    flex-direction: row;
+    color: rgb(41, 59, 119);
+    width: 20px;
+    height: 20px;
+    }
+
+
+*/
+/*
+body {
+
+background-color: rgb(163, 130, 110);
+box-sizing: border-box;
+
+}
+
+
+
+.header .headimg {
+position: absolute;
+display: flex;
+padding: ;
+margin: 100px;
+text-align: center;
+border: 30px solid black;
+
+height: 400px;
+width: 650px;
+
+
+
+}
+
+.nav1 {
+  display: flex;
+background-color: transparent;
+color: wheat;
+justify-content: left;
+
+}
+
+.nav1 , .button1, .button2,  .button3,  .button4 {
+  display: flex;
+background-color: transparent;
+color: wheat;
+justify-content: end;
+border: 0px;
+font-family:  "Rubik", sans-serif;
+font-weight: 800;
+
+
+}
+
+
+*/
+
+
+/*
+body {
+background-color: rgb(187, 147, 107);
+
+}
+
+
+.head {
+    background-image: url(https://media.istockphoto.com/id/1443452109/photo/mars-rover-on-a-planet-surface.jpg?s=612x612&w=0&k=20&c=ekISJy4PiGjUlFcbxFh7Pus3SIUf6iLvlag-0CNVZNg=);
+    position: relative;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 550px;
+
+
+
+
+}
+
+.head , .box {
+
+height: 700px;
+width: 850px;
+
+
+
+
+}
+
+
+
+
+nav {
+
+display: flex;
+justify-content: end;
+background-color: transparent;
+font-family: "Rubik", sans-serif;
+;
+font-weight: 800;
+
+}
+
+
+.button {
+
+background-color: transparent;
+font-family: "Rubik", sans-serif;
+
+}
+
+*/
+
+body {
+
+  background-color: rgb(161, 126, 90);
+ 
+
+}
+
+header {
+  background-image: url(https://plus.unsplash.com/premium_photo-1681400048733-1294c0537efd?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+}
+
+.navbar {
+
+display: flex;
+justify-content: end;
+color: antiquewhite;
+
+}
+
+.bannerHeading {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+
+} */
+
+.btn {
+
+  background-color: transparent;
+  border: 0px;
+  font-family: "Rubik", sans-serif;
+  background-color: transparent;
+  color: antiquewhite;
+}
+
+.head1 {
+
+  font-weight: 800;
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 253, 253);
+
+}
+
+
+.p1 {
+
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.p2 {
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+
+.p3 {
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.button1 {
+
+  background-color: white;
+  border: 2px solid burlywood;
+  font-family: "Rubik", sans-serif;
+
+}
+
+
+.launchDate {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: rgb(209, 203, 203);
+}
+
+.main {
+
+display: flex;
+justify-content: center;
+font-family: "Rubik", sans-serif;
+  color: rgb(41, 37, 37);
+
+
+
+}
+.locations {
+
+display: flex;
+flex-direction: row;
+
+
+
+
+}
